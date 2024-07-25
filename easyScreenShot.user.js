@@ -8,8 +8,8 @@
 // @license       MIT
 // @namespace     Easy GeoGuessr screen shot.
 // @grant         none
-// @downloadURL   https://github.com/echandler/Easy-GeoGuessr-Street-View-Screen-Shot/raw/main/easyScreenShot.user.js
-// @updateURL     https://github.com/echandler/Easy-GeoGuessr-Street-View-Screen-Shot/raw/main/easyScreenShot.user.js
+// @downloadURL   https://github.com/echandler/Easy-GeoGuessr-Street-View-Screen-Shot./raw/main/easyScreenShot.user.js
+// @updateURL     https://github.com/echandler/Easy-GeoGuessr-Street-View-Screen-Shot./raw/main/easyScreenShot.user.js
 // ==/UserScript==
 
 
