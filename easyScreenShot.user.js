@@ -21,9 +21,9 @@ setInterval(()=>{
 
         canvas.__$contextmenuFixed = true;
 
-        // Prevents the contextmenu event from bubbling to the parent where it
+        // Prevents the context menu event from bubbling to the parent where it
         // will be prevented.
-        // The contextmenu has an option to save or copy the image.
+        // The context menu has an option to save or copy the image.
         canvas.addEventListener('contextmenu', (e) =>{
             e.stopPropagation();
             showMsg();
@@ -66,7 +66,7 @@ function showMsg(){
     const bodyDiv = document.createElement('div');
     bodyDiv.style.cssText = "";
     bodyDiv.innerHTML = `
-        <div class="_text-animation" style='position: absolute; '>Easy Street View Screen Shot! Keyboard shortcut: shift-p (capital P).</div>
+        <div class="_text-animation" >Easy Street View Screen Shot! Keyboard shortcut: shift-p (capital P).</div>
     `;
     document.body.appendChild(bodyDiv);
     setTimeout(()=> bodyDiv.remove(), 5000);
